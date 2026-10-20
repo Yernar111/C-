@@ -22,7 +22,7 @@ int main(){
     string s,t;
     cin>>t>>s;
     int i=0,j=0;
-    if (s.size()%t.size()==0)
+    if (s.size()%t.size()==0) 
         cout<<copy_(s,t,i,j);
     else
         cout<<"NO";

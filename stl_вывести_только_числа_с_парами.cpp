@@ -6,7 +6,7 @@
 using namespace std;
 int main(){
     map <int, int> a;
-    int n;
+    int n; 
     while (cin>>n){
         if (a.count(n)>0){
             if (a[n]==n){

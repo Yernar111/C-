@@ -1,5 +1,4 @@
 #include <iostream>
-/* ѕомен€ть буквы на большие на нечетных позици€х */
 using namespace std;
 
 string toUpper(string s, int i, string t){

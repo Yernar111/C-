@@ -6,7 +6,7 @@ using namespace std;
 int main(){
     int n,r,x,y;
     cin>>n>>r;
-    int a[n+1][n+1];
+    int a[n+1][n+1]; 
     for (int i=1;i<=n;i++){
         for (int j=1;j<=n;j++){
             a[i][j]=0;

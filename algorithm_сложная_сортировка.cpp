@@ -1,6 +1,5 @@
 #include <bits/stdc++.h>
 using namespace std;
-/* Есть количество строк, первое число каждой строки описывает длину строки не считая первое число, отсортировать строки сначала по сумме чисел в строке, если они равны тогда по размеру строки, если они равны то по соответствующим элементам строки */
 int check(vector <int> a){
     int n=0;
     for (int i=0;i<a.size();i++){
@@ -11,7 +10,7 @@ int check(vector <int> a){
 
 int main(){
     int n;
-    cin>>n;
+    cin>>n; 
     vector <vector<int> > a;
     for (int i=0;i<n;i++){
         int m;

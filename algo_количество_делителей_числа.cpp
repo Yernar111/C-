@@ -1,5 +1,4 @@
 #include <iostream>
-/* Количество делителей числа */
 using namespace std;
 
 bool isPrime(int x){

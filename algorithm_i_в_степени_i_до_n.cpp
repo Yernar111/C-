@@ -5,7 +5,7 @@ using namespace std;
 long long till(){
     static long long n=-1;
     n++;
-    return powl(n,n);
+    return powl(n,n); 
 }
 
 int main(){

@@ -4,7 +4,7 @@ using namespace std;
 int main(){
     int n;
     int a,b,c,d;
-    cin>>n>>a>>b>>c>>d;
+    cin>>n>>a>>b>>c>>d; 
     int k=0;
     if (a==c){
         cout<<d-b;

@@ -1,7 +1,7 @@
 #include <iostream>
 #include <stack>
 #include <queue>
-#include <algorithm>
+#include <algorithm> 
 /* Вывести сначала четные числа массива в порядке убывания, а затем нечетные числа в порядке возрастания */
 using namespace std;
 int main(){

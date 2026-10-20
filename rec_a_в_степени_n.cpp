@@ -12,5 +12,5 @@ int main(){
     double a,n;
     cin>>a>>n;
     cout<<fixed<<setprecision(10)<<check(a,n);
-	return 0;
+	return 0; 
 }

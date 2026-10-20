@@ -2,7 +2,7 @@
 using namespace std;
 /* Счастливый билет - сумма цифр которого делится на последнюю цифру */
 string check(int n, int k, int m){
-    if (n/10==0){
+    if (n/10==0){ 
         if (k!=0 && m%k==0)
             return "Yes";
         return "No";

@@ -8,7 +8,7 @@ int main(){
     cin>>a>>b;
     unordered_set <int> c;
     for (int i=a;i<=b;i++){
-        int m=i;
+        int m=i; 
         int k=0;
         while(m!=0){
             int z=m%10;

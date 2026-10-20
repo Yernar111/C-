@@ -2,7 +2,7 @@
 #include <string>
 /* Скобки написаны правильно если для каждой открытой скобки есть закрытая */
 using namespace std;
-int main(){
+int main(){ 
     string s;
     cin>>s;
     int k=0;

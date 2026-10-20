@@ -5,7 +5,7 @@
 using namespace std;
 
 int main(){
-    int w,h,n;
+    int w,h,n; 
     cin>>w>>h>>n;
     int a[100][100]={0};
     int x1,y1,x2,y2;

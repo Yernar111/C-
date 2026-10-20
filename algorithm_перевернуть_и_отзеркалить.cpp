@@ -10,7 +10,7 @@ int main(){
         cin>>k;
         a.push_back(k);
     }
-    rotate(a.begin(),a.begin()+m,a.end());
+    rotate(a.begin(),a.begin()+m,a.end()); 
     reverse(a.begin(),a.end());
     for (int i=0;i<n;i++){
         cout<<a[i]<<" ";

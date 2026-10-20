@@ -11,7 +11,7 @@ int main(){
     }
     sort(a,a+n);
     if (m<=a[0]){
-        cout<<0;
+        cout<<0; 
         return 0;
     }
     else if(m>=a[n-1]){

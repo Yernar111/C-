@@ -1,7 +1,7 @@
 #include <iostream>
 #include <string>
 #include <cmath>
-/* Вывести результат сложения,вычитания или умножения через строки */
+/* Вывести результат сложения,вычитания или умножения через строки */ 
 using namespace std;
 int main(){
 	string s;

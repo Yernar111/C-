@@ -11,7 +11,7 @@ int main(){
         int k=1;
         if (s[i]==s[i-1]){
             while(s[i]==s[i-1] && i<s.size()){
-                k++;
+                k++; 
                 i++;
             }
             if (k>m){

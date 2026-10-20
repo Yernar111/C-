@@ -3,7 +3,7 @@
 using namespace std;
 /* Удалить одинаковые элементы чтобы в конце остался лишь уникальный набор элементов */
 void check(int a[], vector <int> b,int n, int i, int j){
-    if (i==n){
+    if (i==n){ 
         for (int h=0;h<b.size();h++){
             cout<<b[h]<<" ";
         }

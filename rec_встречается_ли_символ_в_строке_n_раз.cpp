@@ -7,7 +7,7 @@ string check(string s, char c, int n, int k, int i){
         if (k==n)
             return "YES";
         return "NO";
-    }
+    } 
     if (s[i]==c)
         k++;
     return check(s, c, n, k, i+1);

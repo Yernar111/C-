@@ -4,7 +4,7 @@
 using namespace std;
 
 int main(){
-    int n;
+    int n; 
     set <int> a;
     while(cin>>n){
         a.insert(n);

@@ -1,6 +1,6 @@
 #include <iostream>
 /* Буква в строке которая встречается ровно два раза */
-using namespace std;
+using namespace std; 
 
 int main(){
     string s;

@@ -10,7 +10,7 @@ int find_id(int a[],int m, int i){
     int k=0,j=1;
     while (k!=m){
         if (b[j]==0)
-            k++;
+            k++; 
         j++;
     }
     return j-1;

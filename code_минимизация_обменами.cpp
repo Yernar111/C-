@@ -11,7 +11,7 @@ int main(){
             cout<<s<<endl;
             continue;
         }
-        char c;
+        char c; 
         for (int k=0;k<m;k++){
             for (int j=0;j<s.size()-1;j++){
                 if (s[j]>s[j+1]){

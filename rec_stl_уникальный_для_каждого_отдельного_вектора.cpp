@@ -5,7 +5,7 @@ using namespace std;
 void check(vector <int> a, vector <int> b, int i){
     if (i==a.size())
         return;
-    int j=count(a.begin(),a.end(),b[i]);
+    int j=count(a.begin(),a.end(),b[i]); 
     if (j>0)
         return check(a,b,i+1);
     cout<<b[i]<<" ";

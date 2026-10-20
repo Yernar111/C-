@@ -3,7 +3,7 @@
 using namespace std;
 int main(){
     string t,s;
-    cin>>t>>s;
+    cin>>t>>s; 
     if (s.size()%t.size()==0){
         for (int i=0;i<s.size();){
             for (int j=0;j<t.size();j++){

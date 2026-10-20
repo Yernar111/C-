@@ -6,7 +6,7 @@ int main(){
     cin>>n;
     int a,b,c,d;
     int k=0;
-    for (int i=1;i<n/2;i++){
+    for (int i=1;i<n/2;i++){ 
         a=n-i;
         b=a-1;
         c=n-b;

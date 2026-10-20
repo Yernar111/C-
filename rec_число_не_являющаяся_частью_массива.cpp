@@ -3,7 +3,7 @@
 #include <algorithm>
 /* Найти число не являющаяся частью массива из последовательных чисел от 0 до n */
 using namespace std;
-
+ 
 int find_num(int a[], int i, int n){
     if (i==n){
         return n;

@@ -1,7 +1,7 @@
 #include <iostream>
 /* ¬ывести K-тый общий делитель двух чисел */
 using namespace std;
-
+ 
 int check(int n, int m, int k, int i, int j){
     if (i==k)
         return j;

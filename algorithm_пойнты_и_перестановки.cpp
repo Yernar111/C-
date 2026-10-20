@@ -8,7 +8,7 @@ int check(){
 }
 
 int main(){
-    int n,k;
+    int n,k; 
     cin>>n>>k;
     vector <int> a(n);
     generate(a.begin(),a.end(),check);

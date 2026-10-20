@@ -1,7 +1,7 @@
 #include <iostream>
 /* Можно ли из не палиндрома сделать палиндром поменяв лишь одну букву */
 using namespace std;
-int main(){
+int main(){ 
     string s,t;
     cin>>s;
     int i;

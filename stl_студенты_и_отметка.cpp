@@ -4,7 +4,7 @@
 #include <set>
 #include <map>
 /* Дается N студентов и дни в которые они пришли на занятие, для каждого студента если присутсвовал как минимум в 3 разных днях надо вывести +1, иначе NO BONUS. */
-using namespace std;
+using namespace std; 
 
 int main(){
     multimap <string, int> a;

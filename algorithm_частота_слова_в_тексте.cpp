@@ -9,7 +9,7 @@ bool compared(pair<int, string> a, pair<int, string> b){
 
 int main(){
     map <string, int> a;
-    string s;
+    string s; 
     while (cin>>s){
         if (a.count(s)>0){
             a[s]++;

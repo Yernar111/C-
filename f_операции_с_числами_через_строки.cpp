@@ -7,7 +7,7 @@ using namespace std;
 char sign(string s){
     for (int i=0;i<s.size();i++){
         if (s[i]=='+')
-            return '+';
+            return '+'; 
         else if(s[i]=='*')
             return '*';
         else if(s[i]=='-')

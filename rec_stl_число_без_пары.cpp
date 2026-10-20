@@ -14,7 +14,7 @@ int without_pair(vector <int> a,int i){
 
 int main(){
     int n,m;
-    cin>>n;
+    cin>>n; 
     vector <int> a;
     for (int i=0;i<n;i++){
         cin>>m;

@@ -6,7 +6,7 @@
 #include <stack>
 #include <queue>
 #include <utility>
-#include <algorithm>
+#include <algorithm> 
 using namespace std;
 /* ”казатели и ссылки */
 int main(){

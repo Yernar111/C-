@@ -5,7 +5,7 @@ int main(){
     int b,y;
     string a,x;
     cout<<"¬ведите позицию на котором будет сто€ть ладь€: "<<endl;
-    cin>>a>>b;
+    cin>>a>>b; 
     cout<<"¬ведите еще одну позицию: "<<endl;
     cin>>x>>y;
     if (a==x || b==y){

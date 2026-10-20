@@ -3,7 +3,7 @@
 using namespace std;
 
 char check(string s, char c, int i, int j, int k){
-    if (i==s.size())
+    if (i==s.size()) 
         return ' ';
     if (j==s.size() || k>2){
         if (k==2){

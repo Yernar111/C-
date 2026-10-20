@@ -4,7 +4,7 @@ int main(){
     setlocale(LC_ALL, "Russian");
     int a,b;
     cout<<"Придумайте пароль: ";
-    cin>>a;
+    cin>>a; 
     cout<<"Ваш пароль: "<<a<<endl;
     b=0;
     while (b!=a){

@@ -2,7 +2,7 @@
 #include <cmath>
 using namespace std;
 /* Для арабов часто буквы b и p или буквы e и i одинаковые по звучанию, нужно определить являются ли два текста одинаковыми учитывая эти условия */
-
+ 
 string check(string s, string t){
     for (int i=0;i<s.size();i++){
         if (s[i]!=t[i]){

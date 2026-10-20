@@ -6,7 +6,7 @@
 using namespace std;
 int main(){
     set <string> a;
-    int n;
+    int n; 
     cin>>n;
     for (int i=0;i<n;i++){
         string m;

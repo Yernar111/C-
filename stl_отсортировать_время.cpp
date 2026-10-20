@@ -4,7 +4,7 @@ using namespace std;
 int main(){
     multimap <pair<pair<int, int>,int>, int> a;
     int n;
-    cin>>n;
+    cin>>n; 
     for (int i=0;i<n;i++){
         int k,m,t;
         cin>>k>>m>>t;

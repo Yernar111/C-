@@ -3,7 +3,7 @@ using namespace std;
 /* Двоичный код для каждого числа в последовательности */
 void check(int n){
     stack <int> a;
-    while(n!=0){
+    while(n!=0){ 
         a.push(n%2);
         n/=2;
     }

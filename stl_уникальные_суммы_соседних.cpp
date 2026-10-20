@@ -4,7 +4,7 @@
 using namespace std;
 int main(){
     set <int> b;
-    int n;
+    int n; 
     cin>>n;
     int a[n];
     for (int i=0;i<n;i++){
